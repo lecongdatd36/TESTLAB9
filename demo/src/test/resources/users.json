@@ -1,37 +1,37 @@
-[
-  {
-    "username": "standard_user",
-    "password": "secret_sauce",
-    "role": "user",
-    "expectSuccess": true,
-    "description": "Login success standard user"
-  },
-  {
-    "username": "locked_out_user",
-    "password": "secret_sauce",
-    "role": "locked",
-    "expectSuccess": false,
-    "description": "Login locked user"
-  },
-  {
-    "username": "standard_user",
-    "password": "wrong_pass",
-    "role": "user",
-    "expectSuccess": false,
-    "description": "Wrong password"
-  },
-  {
-    "username": "",
-    "password": "secret_sauce",
-    "role": "user",
-    "expectSuccess": false,
-    "description": "Empty username"
-  },
-  {
-    "username": "standard_user",
-    "password": "",
-    "role": "user",
-    "expectSuccess": false,
-    "description": "Empty password"
-  }
-]
+  [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "role": "user",
+      "expectSuccess": true,
+      "description": "Login success standard user"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "role": "locked",
+      "expectSuccess": false,
+      "description": "Login locked user"
+    },
+    {
+      "username": "standard_user",
+      "password": "wrong_pass",
+      "role": "user",
+      "expectSuccess": false,
+      "description": "Wrong password"
+    },
+    {
+      "username": "",
+      "password": "secret_sauce",
+      "role": "user",
+      "expectSuccess": false,
+      "description": "Empty username"
+    },
+    {
+      "username": "standard_user",
+      "password": "",
+      "role": "user",
+      "expectSuccess": false,
+      "description": "Empty password"
+    }
+  ]

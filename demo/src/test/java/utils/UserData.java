@@ -19,8 +19,23 @@ public class UserData {
     @JsonProperty("description")
     private String description;
 
-    public String getUsername() { return username; }
-    public String getPassword() { return password; }
-    public boolean isExpectSuccess() { return expectSuccess; }
-    public String getDescription() { return description; }
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public boolean isExpectSuccess() {
+        return expectSuccess;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }

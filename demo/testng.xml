@@ -1,5 +1,9 @@
 <suite name="TestSuite" parallel="methods" thread-count="3">
 
+    <listeners>
+        <listener class-name="utils.RetryListener"/>
+    </listeners>
+
    
     <test name="Smoke Tests">
         <parameter name="browser" value="chrome"/>
@@ -28,7 +32,8 @@
         <classes>
             <class name="tests.LoginDataDrivenTest"/>
             <class name="tests.LoginTest"/>
-            <class name="tests.CartTest"/>
+            <class name="tests.CheckoutTest"/>
+            <class name="tests.FlakySimulationTest"/>
         </classes>
     </test>
 

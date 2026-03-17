@@ -21,11 +21,14 @@ public class TestDataFactory {
         return faker.number().digits(5);
     }
 
+    public static String randomEmail() {
+        return faker.internet().emailAddress();
+    }
+
     public static Map<String, String> randomCheckoutData() {
         return Map.of(
                 "firstName", randomFirstName(),
                 "lastName", randomLastName(),
-                "postalCode", randomPostalCode()
-        );
+                "postalCode", randomPostalCode());
     }
 }

@@ -1,0 +1,14 @@
+<suite name="FlakySuite" parallel="false" thread-count="1">
+
+    <listeners>
+        <listener class-name="utils.RetryListener"/>
+    </listeners>
+
+    <test name="Flaky Test Verification">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.FlakySimulationTest"/>
+        </classes>
+    </test>
+
+</suite>
