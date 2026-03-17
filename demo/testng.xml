@@ -1,0 +1,35 @@
+<suite name="TestSuite" parallel="methods" thread-count="3">
+
+   
+    <test name="Smoke Tests">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.LoginDataDrivenTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Regression Tests">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="tests.LoginDataDrivenTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T15:19:35 GMT+07:00" name="Surefire suite" finished-at="2026-03-17T15:20:03 GMT+07:00" duration-ms="27936">
+    <groups>
+      <group name="regression">
+        <method signature="LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" name="testLoginAll" class="tests.LoginDataDrivenTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginDataDrivenTest.testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" name="testLoginSmoke" class="tests.LoginDataDrivenTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-17T15:19:35 GMT+07:00" name="Surefire test" finished-at="2026-03-17T15:20:03 GMT+07:00" duration-ms="27936">
+      <class name="tests.LoginDataDrivenTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:35 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:37 GMT+07:00" duration-ms="1920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:37 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:38 GMT+07:00" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login OK 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:38 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:38 GMT+07:00" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:38 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:39 GMT+07:00" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:39 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:39 GMT+07:00" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login OK 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:39 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:40 GMT+07:00" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login OK 1 status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:40 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:41 GMT+07:00" duration-ms="1162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:41 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:41 GMT+07:00" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login OK 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:41 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:41 GMT+07:00" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login OK 2 status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:41 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:42 GMT+07:00" duration-ms="1125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:42 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:43 GMT+07:00" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sai pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:43 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:43 GMT+07:00" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login OK 3 status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:43 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:44 GMT+07:00" duration-ms="1223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:44 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:45 GMT+07:00" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[locked out]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:45 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:45 GMT+07:00" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sai pass status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:45 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:46 GMT+07:00" duration-ms="1258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:46 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:46 GMT+07:00" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thiếu user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:46 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:47 GMT+07:00" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Bị khóa status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:47 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:48 GMT+07:00" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:48 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:48 GMT+07:00" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thiếu pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:48 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:48 GMT+07:00" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Thiếu user status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:48 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:49 GMT+07:00" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:49 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:50 GMT+07:00" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sai hết]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:50 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:50 GMT+07:00" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Thiếu pass status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:50 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:51 GMT+07:00" duration-ms="1384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:51 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:52 GMT+07:00" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaaaaaaaaa...]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User dài]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:52 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:52 GMT+07:00" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sai hết status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:52 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:53 GMT+07:00" duration-ms="1241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:53 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:54 GMT+07:00" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@@@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ký tự đặc biệt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:54 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:54 GMT+07:00" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User dài status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:54 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:55 GMT+07:00" duration-ms="1074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:55 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:55 GMT+07:00" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR 1=1 --]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SQL injection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:55 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:56 GMT+07:00" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ký tự đặc biệt status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:56 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:57 GMT+07:00" duration-ms="1084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:57 GMT+07:00" name="testLoginAll" data-provider="allData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:57 GMT+07:00" duration-ms="582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[random]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:57 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:57 GMT+07:00" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SQL injection status=SUCCESS method=LoginDataDrivenTest.testLoginAll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:57 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:59 GMT+07:00" duration-ms="1215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:59 GMT+07:00" name="testLoginSmoke" data-provider="smokeData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:59 GMT+07:00" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login OK 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSmoke -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:59 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:19:59 GMT+07:00" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=random status=SUCCESS method=LoginDataDrivenTest.testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:19:59 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:20:00 GMT+07:00" duration-ms="1102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:20:00 GMT+07:00" name="testLoginSmoke" data-provider="smokeData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:20:01 GMT+07:00" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login OK 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSmoke -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:20:01 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:20:01 GMT+07:00" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login OK 1 status=SUCCESS method=LoginDataDrivenTest.testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:20:01 GMT+07:00" name="setUp" test-instance-name="Login OK 3" finished-at="2026-03-17T15:20:02 GMT+07:00" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:20:02 GMT+07:00" name="testLoginSmoke" data-provider="smokeData" test-instance-name="Login OK 3" finished-at="2026-03-17T15:20:02 GMT+07:00" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Login OK 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSmoke -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87]" started-at="2026-03-17T15:20:02 GMT+07:00" name="tearDown" test-instance-name="Login OK 3" finished-at="2026-03-17T15:20:03 GMT+07:00" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login OK 2 status=SUCCESS method=LoginDataDrivenTest.testLoginSmoke(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDataDrivenTest@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginDataDrivenTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
